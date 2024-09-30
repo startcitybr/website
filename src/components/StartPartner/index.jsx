@@ -2,7 +2,7 @@ import React from "react";
 
 export const StartPartner = () => {
   return (
-    <div className="bg-graycolor flex flex-col mx-auto items-center justify-center py-6 lg:py-20 px-4">
+    <div className="bg-graycolor flex flex-col mx-auto items-center justify-center py-6 lg:py-20 px-4" id="conecte-se">
       <h3 className="text-center max-w-3xl mx-auto text-3xl text-darkcolor tracking-tight sm:text-4xl">
         Quer iniciar uma parceria com a Starticy{" "}
         <span className="font-semibold text-maincolor">imediatamente?</span>

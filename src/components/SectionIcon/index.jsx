@@ -20,16 +20,16 @@ const iconItems = [
       "Gestão completa. Suporte em jurídico, t.i., tributário, pessoas, mercado e principalmente, resultado.",
   },
   {
-    title: "Governança Corporativa",
+    title: "Intermediações",
     imageUrl: "/icons/003-6a.png",
     description:
-      "Transparencia e gestão financeira para assegurar o melhor desenvolvimento para você e para os sócios.",
+      "Intermediação com total transparência e profissionalismo, facilitando negociações e garantindo os melhores resultados para todas as partes.",
   },
   {
-    title: "Compra e venda de Startups",
+    title: "Compra e venda de negócios",
     imageUrl: "/icons/008-4.png",
     description:
-      "Transparencia e gestão financeira para assegurar o melhor desenvolvimento para você e para os sócios.",
+      "Consultoria na compra e venda de empresas, garantindo as melhores condições em todas as etapas.",
   },
   {
     title: "Corporate Inovation",
@@ -40,7 +40,7 @@ const iconItems = [
     title: "Gestão de Projetos",
     imageUrl: "/icons/global2.png",
     description:
-      "Transparencia e gestão financeira para assegurar o melhor desenvolvimento para você e para os sócios.",
+      "Gestão completa de projetos, do planejamento à execução, focando em eficiência, prazos e metas.",
   },
   {
     title: "Também fazemos",
@@ -52,7 +52,7 @@ const iconItems = [
 const SectionIcon = () => {
   return (
     <>
-      <div className="relative bg-darkcolor py-4 lg:py-12 lg:py-10 px-6 lg:px-8">
+      <div className="relative bg-darkcolor py-4 lg:py-12 lg:py-10 px-6 lg:px-8" id="o-que-fazemos">
         <div className="container max-w-7xl mx-auto">
           <h3 className="pt-20 text-center max-w-3xl mx-auto text-2xl text-white tracking-tight sm:text-3xl">
             Na Startcity você encontra tudo o que precisa para o futuro{" "}
@@ -86,12 +86,12 @@ const SectionIcon = () => {
             ))}
           </div>
           <div className="flex mx-auto mt-6 justify-center pb-20">
-              <button
+              {/* <button
                 type="submit"
                 className="uppercase inline-flex items-center justify-center max-w-2xl h-12 px-6 font-medium tracking-wide text-maincolor border-solid border-2 border-maincolor duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-maincolor hover:border-maincolor hover:text-white focus:shadow-outline focus:outline-none transition-colors"
               >
                 Quero saber mais
-              </button>
+              </button> */}
             </div>
         </div>
       </div>
