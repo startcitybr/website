@@ -21,7 +21,7 @@ const iconItems = [
   },
   {
     title: "Intermediações",
-    imageUrl: "/icons/003-6a.png",
+    imageUrl: "/icons/inter3.png",
     description:
       "Intermediação com total transparência e profissionalismo, facilitando negociações e garantindo os melhores resultados para todas as partes.",
   },
@@ -38,14 +38,14 @@ const iconItems = [
   },
   {
     title: "Gestão de Projetos",
-    imageUrl: "/icons/global2.png",
+    imageUrl: "/icons/002-7.png",
     description:
       "Gestão completa de projetos, do planejamento à execução, focando em eficiência, prazos e metas.",
   },
   {
-    title: "Também fazemos",
-    imageUrl: "/icons/005-6.png",
-    description: "Workshops, palestras, acelerações e roadshow.",
+    title: "Real Estate",
+    imageUrl: "/icons/real-estate.png",
+    description: "Desenvolvimento de negócios imobiliários, consultoria para aquisição e venda de imóveis.",
   },
 ];
 
